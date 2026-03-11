@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+display: flex;
+justify-content: space-between;
+padding: 10px 20px;
+background-color: orange;
+color: wheat;
+font-size: large;
+}
+.Navigation_linkes ul
+{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;    
+}
+.Navigation_linkes ul a:first-of-type
+{
+    font-weight: bold;
+}
+{
+    font-weight: bold;
+}
+.Navigation_linkes ul a
+{
+    text-decoration: none;
+}
+.navbar a{
+    color: white;
+    
+}
+.Hero_Section
+{  
+    background-image: url(../images/rainbow-vortex.png);
+}
+input, textarea {
+    border-radius: 4px;
+}
