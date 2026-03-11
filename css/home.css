@@ -1,0 +1,118 @@
+.Hero_Section_content
+{
+         height: 100vh;
+         display: flex;
+         flex-direction: column;
+         align-items:end;
+         justify-content: center;
+         gap: 15px;
+         padding-right: 25px;
+         color: white;
+}
+.Hero_Section_content button
+{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    border-style: solid;
+    box-shadow:5px 5px;
+}
+.What_We_Do_Container
+{
+    width: calc( 100% - 20% );
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    gap: 5px;
+}
+.What_We_Do_row
+{   
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 5px;
+}
+.What_We_Do_row .option
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    height: 150px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 1px 2px;
+    
+}
+.What_We_Do_row .option h3{
+  background-color: #2f4f7f;
+    color: white;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    padding: 20px 0px;
+}
+.What_We_Do_row .option p{
+    padding: 0 0 20px 0;
+}
+.About_Us_Container 
+{
+    width: calc( 100% - 20% );
+    margin: auto;
+    padding: 15px 0px; 
+
+}
+.About_Us_Container h2{
+    padding: 10px 0;
+}
+.About_Us_divs
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 10px;
+    gap: 10px;
+}
+.About_Us_divs img{
+    width: 100%;
+}
+.About_Us_divs .Paragraph_right_of_the_photo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 10px;
+    gap: 10px;
+}
+.About_Us_divs .Paragraph_right_of_the_photo .Mission_Statement span
+{
+    font-weight: bold;
+}
+.About_Us_divs .Paragraph_right_of_the_photo .Mission_Statement,.Brief_History
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.About_Us_divs .Paragraph_below_the_photo
+{
+    grid-row: 2 /3;
+    grid-column: 1 /3;
+}
+
+@media screen and (max-width:1200px){
+    .About_Us_divs
+{
+    display: flex;
+    flex-direction: column;
+}
+.About_Us_divs .Paragraph_right_of_the_photo .Mission_Statement,.Brief_History
+{
+    gap: 3px;
+}
+
+}
+
+
+
