@@ -40,3 +40,63 @@ font-size: large;
 input, textarea {
     border-radius: 4px;
 }
+.footer_container
+{
+    color: white;
+}
+.footer_container
+{
+    width: calc( 100% - 20% );
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+.footer_container .footer_row
+{   width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px   
+   
+}
+.footer_container .footer_row .address,
+.footer_container .footer_row .phone,
+.footer_container .footer_row .email
+{ 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;    
+padding: 20px;
+}
+.footer_container ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+}
+
+
+.footer_container ul li{
+    padding: 5px 0px;
+}
+.footer_container ul li::first-line
+{
+    font-weight: bold;
+}
+footer img{
+    width: 80px;
+    background-color: gray;
+    padding: 15px;
+    border-radius: 50%;
+    border-style: solid;
+
+    
+}
+
