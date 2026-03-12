@@ -76,6 +76,13 @@
 .About_Us_divs img{
     width: 100%;
 }
+.meeting_figure
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .About_Us_divs .Paragraph_right_of_the_photo
 {
     display: flex;
